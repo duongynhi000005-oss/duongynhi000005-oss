@@ -1,55 +1,38 @@
-# ⚡ Systems, Cryptography & Computational Geometry Engineer
+# ⚡ Nhi — Systems, Cryptography & High-Concurrency Backend Engineer (Rust · Python · TypeScript)
 
-**Rust • Python (FastAPI / Asyncio) • TypeScript (2D/3D CAD & Spatial Solvers) • Solana / Stellar / ZK-SNARKs**
+[![Ko-fi Shop ($5 Engineer Tools & Templates)](https://img.shields.io/badge/Ko--fi_Shop-Get_$5_Production_Tools_%26_Templates-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/s/6f070d3e68)
+[![Hire Me for Fast Micro-Gigs ($15-$150)](https://img.shields.io/badge/Hire_Me-Fast_Bug_Fixes_%26_Tech_Docs_($15--$150)-10B981?style=for-the-badge)](https://ko-fi.com/nhi741323)
 
-[![Hire Me](https://img.shields.io/badge/Hire_Me-$10--$150_Fast_Turnaround-00C853?style=for-the-badge)](mailto:duongynhi000001@gmail.com)
-[![Flagship Tool](https://img.shields.io/badge/Flagship_Release-Crypto_%26_Bounty_Tax_OS_v1.0-3B82F6?style=for-the-badge)](https://github.com/duongynhi000005-oss/deeptech-crypto-tax-and-pnl-engine/releases/tag/v1.0.0)
-
----
-
-## 🛠️ Available for Rapid Engineering & Consulting ($10 – $150 Fixed Scope)
-
-I specialize in **hard systems & algorithmic engineering problems** with deterministic unit/regression test coverage and 1–24 hour turnaround:
-
-- **⚡ Flash Bug Fixes & CI Test Rescue ($10 – $25, 1–3h Turnaround):** Fixing race conditions in Python `asyncio`/FastAPI WebSockets, TypeScript/Node.js pipelines, Docker/Helm builds, or failing `pytest` / `bun test` / `cargo test` suites.
-- **🕸️ Anti-Bot Web Scraping & Data Pipelines ($15 – $50):** High-concurrency Playwright / Python `httpx` scrapers, webhook fanout, and automated multi-sheet Dark-Mode Excel (`openpyxl`) + JSON/CSV reporting.
-- **🦀 Deep-Tech Systems, CAD/Geometry & Web3 ($50 – $150):** 2D/3D spatial indexing, A* pathfinding, KiCad/Gerber CAD compilers, Rust Groth16/R1CS zero-knowledge circuits, and Solana/Stellar smart contracts.
-
-📫 **Direct Contact:** [`duongynhi000001@gmail.com`](mailto:duongynhi000001@gmail.com) — *PayPal, Stripe, or USDC / USDT / SOL / XLM accepted (pay after seeing working proof/test output).*
+I build **zero-regression production fixes, real-time streaming backends, computational geometry solvers, and cryptographic state machines** across open-source and commercial repositories (**50+ live Pull Requests** across YC-backed AI hardware, CAD/EDA routers, and ZK/Solana protocols).
 
 ---
 
-## 🏆 Featured Open-Source Pull Requests (25+ Live Deep-Tech PRs)
+## 🛒 Ready-to-Use $5 Engineering Tools & Starter Kits (Instant Download)
 
-### 1. High-Concurrency Python & Real-Time AI Audio Backends (`BasedHardware/omi` — 13.7k+ ⭐, YC-Backed)
-- **[BasedHardware/omi#21813](https://github.com/BasedHardware/omi/pull/21813):** `fix(listen): isolate reconnect and prepare rollover finalizations` — Fixed WebSocket listen-session coroutine lifecycle and transcript rollover race conditions.
-- **[BasedHardware/omi#21810](https://github.com/BasedHardware/omi/pull/21810):** `fix(integrations): guard nested context filters and non-string webhook fields` — Hardened real-time webhook fanout and vector memory filtering pipelines.
-
-### 2. 2D/3D Computational Geometry, A* Autorouting & CAD Compilers (`tscircuit` — YC-Backed)
-- **[tscircuit/core#4677](https://github.com/tscircuit/core/pull/4677):** `fix(autorouting): prevent MultilayerIjump overshoot when wallDistance is Infinity (#4585)` — Fixed open-corridor goal overshoot in multilayer A* jump-point pathfinding.
-- **[tscircuit/core#4676](https://github.com/tscircuit/core/pull/4676):** `fix(obstacles): keep small polygon and circular cutouts in routing obstacles` — Preserved sub-millimeter polygon and circular board cutouts during spatial obstacle generation.
-- **[tscircuit/core#4675](https://github.com/tscircuit/core/pull/4675):** `fix(autorouting): prevent escaped pads from retaining remote connection point IDs in withFixedTraces` — Fixed `TopologyMergingSolver` crash when combining saved fanout paths with `routeRemaining`.
-- **[tscircuit/core#4674](https://github.com/tscircuit/core/pull/4674):** `fix(autorouting): avoid duplicating breakout-covered ports as plane-terminated traces` — Fixed dogbone fanout solver crash on copper-poured nets.
-- **[tscircuit/circuit-json-to-kicad#657](https://github.com/tscircuit/circuit-json-to-kicad/pull/657):** `fix(pcb): support rounded rect pcb_cutout corner_radius and standalone cutouts on Edge.Cuts` — Added rounded-rectangle corner arc approximation and standalone `Edge.Cuts` export.
-- **[tscircuit/circuit-json-to-kicad#656](https://github.com/tscircuit/circuit-json-to-kicad/pull/656):** `fix: use KiCad 9 layer ordinals and populate placed symbol Footprint (#633)` — Fixed EasyEDA Pro S-expression import compatibility for KiCad 9 exports.
-- **[tscircuit/circuit-json-to-kicad#655](https://github.com/tscircuit/circuit-json-to-kicad/pull/655):** `fix(pcb): derive SMD pad paste and mask layers from circuit-json (#638)` — Derived accurate `F.Paste`/`B.Paste` and `F.Mask`/`B.Mask` layers from `pcb_solder_paste` records.
-- **[tscircuit/circuit-json-util#242](https://github.com/tscircuit/circuit-json-util/pull/242):** `fix: include PCB note and fabrication note stroke and label geometry in range selection` — Added stroke-width and rotated text bounding-box math for spatial range queries.
-- **[tscircuit/circuit-json-schematic-placement-analysis#297](https://github.com/tscircuit/circuit-json-schematic-placement-analysis/pull/297):** `fix: detect component reference and value text crossing schematic section dividers` — Implemented label bounding-box intersection checks against schematic section dividers.
-
-### 3. Rust Cryptography, ZK-SNARKs (`Groth16` / `R1CS`) & Distributed Bridges (`paraloom-labs`)
-- **[paraloom-labs/paraloom-core#942](https://github.com/paraloom-labs/paraloom-core/pull/942):** `fix(privacy): enforce R1CS C-matrix satisfaction in CircomReduction/prover and harden circuit/tx bounds` — Patched critical Groth16 R1CS soundness hole (`A(z) ∘ B(z) = u · C(z) + h(z)t(z)`), enforced booleanity gates, and bound public inputs to transaction proofs.
-- **[paraloom-labs/paraloom-core#945](https://github.com/paraloom-labs/paraloom-core/pull/945):** `fix(bridge): enforce canonical migrated validator/registry layouts and harden co-sign assembly` — Enforced $2/3+1$ quorum checks, distinct validator pubkey verification, and non-zero withdrawal destination guards.
-- **[paraloom-labs/paraloom-core#947](https://github.com/paraloom-labs/paraloom-core/pull/947):** `fix(program): atomic Merkle pair append, vault self-withdrawal guard, slash event and unbonding checks` — Hardened Solana BPF withdrawal/deposit Merkle tree state transitions.
-- **[paraloom-labs/paraloom-wallet#79](https://github.com/paraloom-labs/paraloom-wallet/pull/79):** `fix(transact): persist and reconcile pending spends and handle deposit leaf-index lag` — Implemented atomic crash-safe WAL persistence for privacy wallet nullifiers.
-
-### 4. Compilers, Static Analysis & Cloud Infrastructure
-- **[limitlessprojects/Go-Hybrid#306](https://github.com/limitlessprojects/Go-Hybrid/pull/306) & [#254](https://github.com/limitlessprojects/Go-Hybrid/pull/254):** Linear/affine ownership borrow-checker (`hy-check`) control-flow and loop back-edge analysis.
-- **[OphirPay/OphirPay#1567](https://github.com/OphirPay/OphirPay/pull/1567) & [#1566](https://github.com/OphirPay/OphirPay/pull/1566):** Multi-stage Docker build-arg injection and Helm chart secret template hardening.
+| Product | Stack | Live Download & Release |
+| :--- | :--- | :--- |
+| **1. Deep-Tech Freelance, Bounty & Crypto FIFO/LIFO Tax OS (Pro v1.0)**<br>5-Sheet Obsidian Dark-Mode Excel Workbook (`.xlsx`) + Zero-Dependency Python 3 CSV Deduplication & FIFO/LIFO Capital Gains CLI (`reconcile_cli.py`) + Pytest Suite | `Python 3` · `Excel` · `SHA-256` | [**👉 Buy on Ko-fi ($5)**](https://ko-fi.com/s/6f070d3e68) · [GitHub Release v1.0.0](https://github.com/duongynhi000005-oss/deeptech-crypto-freelance-tax-os/releases/tag/v1.0.0) |
+| **2. Production FastAPI + WebSocket Real-Time Audio/LLM Streaming & Task Supervisor Kit (v1.0)**<br>Fault-isolated `TaskSupervisor` (bounded concurrency, backoff retry, dead-letter ring buffer), `WebSocketSessionGateway` (`drop_oldest`/`reject` backpressure), and `WebhookDeduplicator` + Pytest Suite | `Python 3` · `FastAPI` · `Asyncio` | [**👉Ko-fi Shop ($5)**](https://ko-fi.com/nhi741323) · [GitHub Release v1.0.0](https://github.com/duongynhi000005-oss/fastapi-websocket-realtime-ai-starter-kit/releases/tag/v1.0.0) |
+| **3. Rust, Solana (Anchor/BPF) & ZK-SNARK (Groth16/R1CS) Security Audit Scanner & 50-Point Checklist Kit (v1.0)**<br>Automated static vulnerability analyzer (`solana_zk_scanner.py`) detecting missing signers (`SOL-001`), `i64::MIN.abs()` overflow (`SOL-002`), non-canonical PDAs (`SOL-003`), unconstrained R1CS witnesses (`ZK-001`), plus 50-Point Audit Checklist | `Rust` · `Solana` · `ZK-SNARK` | [**👉 Ko-fi Shop ($5)**](https://ko-fi.com/nhi741323) · [GitHub Release v1.0.0](https://github.com/duongynhi000005-oss/rust-solana-zk-security-audit-kit/releases/tag/v1.0.0) |
 
 ---
 
-## 📦 Flagship Open-Core Tool: [Deep-Tech Crypto, DeFi & Freelance Tax Engine](https://github.com/duongynhi000005-oss/deeptech-crypto-tax-and-pnl-engine)
+## 🚀 Fast-Turnaround Engineering Micro-Gigs & Technical Writing ($15 – $150 Flat Rate, Strictly <$300)
 
-- **Zero-Dependency Python 3 CLI (`reconcile_cli.py`):** Ingests multi-platform CSV exports (PayPal, Stripe, Algora, Solana, Stellar, EVM), deduplicates via SHA-256 fingerprinting, computes **FIFO & LIFO** realized capital gains, and generates Markdown/JSON/CSV audit reports in `<50ms`.
-- **5-Sheet Obsidian Dark-Mode Excel OS (`Freelance_Bounty_Crypto_Tax_OS_Pro.xlsx`):** Automated formulas, KPI cards, and embedded charts.
-- 👉 **[Download Release v1.0.0 (.zip & .xlsx)](https://github.com/duongynhi000005-oss/deeptech-crypto-tax-and-pnl-engine/releases/tag/v1.0.0)**
+Need a critical bug squashed today, an anti-bot scraper built, or developer documentation with 100% compiling code samples?
+
+1. **⚡ Emergency Bug Fix, Flaky CI Rescue & Web Scraping ($15 – $65, 2–12h Delivery)**
+   - Fixing FastAPI/Asyncio WebSocket task leaks, Docker/CI failures, Playwright/Python `httpx` anti-bot scrapers, or multi-source CSV/Excel automation.
+2. **✍️ Developer Documentation, SDK Quickstarts & Bite-Sized Tech Tutorials ($20 – $120, 24h Delivery)**
+   - **README & API Reference Overhaul ($20 – $45):** Mermaid architecture diagrams, CLI quickstarts, and tested Python/TS/Rust SDK snippets.
+   - **Code-First Engineering Tutorial (800 – 1,500 words + Runnable Repo, $50 – $120):** Deep-dive tutorials on Python Asyncio concurrency, WebSockets, 2D/3D spatial algorithms, or Rust/Solana security.
+3. **🛡️ Smart Contract / Backend Pre-Audit & Custom Algorithmic Solvers ($75 – $150, 24–48h Delivery)**
+   - Static + manual review of Solana Anchor programs, Groth16/R1CS circuits, or TypeScript/Python backend pipelines with deterministic regression tests.
+
+---
+
+## 🏆 Recent Open-Source Proof of Work (50+ Live Pull Requests)
+
+- **High-Concurrency Python & FastAPI (`BasedHardware/omi`, 13.7k+ ⭐):** Fixed WebSocket listen-session task leaks, session file/thumbnail cleanup, and fault-isolated webhook fanout (`PR #21813`, `PR #21810`, `PR #21825`, `PR #21853`).
+- **2D/3D Computational Geometry & EDA Autorouting (`tscircuit`):** Built 3D spatial obstacle solvers, dogbone via fanout, KiCad 9 netlist compilers, and multi-layer A* routing (`PR #4675`, `PR #4674`, `PR #3104`, `PR #655`, `PR #657`).
+- **Zero-Knowledge Cryptography & Rust Consensus Bridges (`paraloom-labs/paraloom-core`):** Fixed Groth16 R1CS soundness bugs, Native/SPL co-sign asset substitution, and equivocator ban enforcement (`PR #942`, `PR #945`, `PR #947`, `PR #962`).
